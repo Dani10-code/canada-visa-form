@@ -1,0 +1,164 @@
+html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sample Canada Visa Application Form</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f9f9f9;
+        }
+        header {
+            background-color: #d32f2f;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        header img {
+            width: 50px;
+            vertical-align: middle;
+        }
+        form {
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        fieldset {
+            margin-bottom: 15px;
+            border-radius: 5px;
+            padding: 15px;
+            border: 1px solid #ddd;
+        }
+        legend {
+            font-weight: bold;
+        }
+        label {
+            display: block;
+            margin-top: 10px;
+        }
+        input, select, textarea {
+            width: calc(100% - 20px);
+            padding: 8px;
+            margin-top: 5px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+        button {
+            background-color: #d32f2f;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #b71c1c;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="canada-flag.png" alt="Canadian Flag">
+        <h1>Canada Visa Application Form</h1>
+    </header>
+    <form action="https://formspree.io/f/mrbgpvyn" method="POST">
+        <fieldset>
+            <legend>Personal Information</legend>
+            <label for="fullName">Full Name:</label>
+            <input type="text" id="fullName" name="fullName" required><br>
+
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob" required><br>
+
+            <label for="gender">Gender:</label>
+            <select id="gender" name="gender" required>
+                <option value="">Select</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="other">Other</option>
+            </select><br>
+
+            <label for="countryOfBirth">Country of Birth:</label>
+            <input type="text" id="countryOfBirth" name="countryOfBirth" required><br>
+
+            <label for="citizenship">Citizenship:</label>
+            <input type="text" id="citizenship" name="citizenship" required><br>
+
+            <label for="maritalStatus">Marital Status:</label>
+            <select id="maritalStatus" name="maritalStatus" required>
+                <option value="">Select</option>
+                <option value="single">Single</option>
+                <option value="married">Married</option>
+                <option value="divorced">Divorced</option>
+                <option value="widowed">Widowed</option>
+            </select>
+        </fieldset>
+
+        <fieldset>
+            <legend>Contact Information</legend>
+            <label for="address">Current Address:</label>
+            <input type="text" id="address" name="address" required><br>
+
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" required><br>
+
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" required>
+        </fieldset>
+
+        <fieldset>
+            <legend>Passport Details</legend>
+            <label for="passportNumber">Passport Number:</label>
+            <input type="text" id="passportNumber" name="passportNumber" required><br>
+
+            <label for="countryOfIssue">Country of Issue:</label>
+            <input type="text" id="countryOfIssue" name="countryOfIssue" required><br>
+
+            <label for="dateOfIssue">Date of Issue:</label>
+            <input type="date" id="dateOfIssue" name="dateOfIssue" required><br>
+
+            <label for="expiryDate">Expiry Date:</label>
+            <input type="date" id="expiryDate" name="expiryDate" required>
+        </fieldset>
+
+        <fieldset>
+            <legend>Purpose of Visit</legend>
+            <label for="visaType">Type of Visa:</label>
+            <select id="visaType" name="visaType" required>
+                <option value="">Select</option>
+                <option value="tourist">Tourist</option>
+                <option value="student">Student</option>
+                <option value="work">Work</option>
+            </select><br>
+
+            <label for="purpose">Purpose of Travel:</label><br>
+            <textarea id="purpose" name="purpose" rows="4" cols="50" required></textarea><br>
+
+            <label for="duration">Intended Duration of Stay:</label>
+            <input type="text" id="duration" name="duration" required><br>
+
+            <label for="entryDate">Proposed Date of Entry:</label>
+            <input type="date" id="entryDate" name="entryDate" required><br>
+
+            <label for="exitDate">Proposed Date of Exit:</label>
+            <input type="date" id="exitDate" name="exitDate" required>
+        </fieldset>
+
+        <fieldset>
+            <legend>Declaration</legend>
+            <input type="checkbox" id="declaration" name="declaration" required>
+            <label for="declaration">I declare that the information provided is accurate and true.</label><br><br>
+
+            <button type="submit">Submit Application</button>
+        </fieldset>
+    </form>
+    <footer>
+        <p>Contact me at: <strong>Canadaimmigrationofficeinethio@gmail.com</strong></p>
+        <p>Phone: <strong>+251931625702</strong></p>
+    </footer>
+</body>
+</html>
